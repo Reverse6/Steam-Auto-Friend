@@ -10,28 +10,28 @@ module.exports = {
 
 Want active support and new updates with new features all for free?
 
-Leave an star on github repo its free ( we push updates based on the engagement )
+Leave a star on github repo it's free, we push updates based on the engagement.
 Repo link: https://github.com/OSL-Works/Steam-Auto-Friend 
 
-  Discord Support Server: https://discord.gg/D8WCtDD     (Open an ticket)
+Discord Support Server: https://discord.gg/D8WCtDD  (Open an ticket)
 
 */
 	
 
 /* 
   Here is contact info: refloowlibrarycontact@gmail.com
-  main dev steam: https://steamcommunity.com/id/MajokingGames/
+  Main devs steam: https://steamcommunity.com/id/MajokingGames/
   
 * Donations:
   Crypto: https://refloow.com/cdonate
-  Steam: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
+  Steam TradeLink: https://steamcommunity.com/tradeoffer/new/?partner=392773011&token=CncehZti
 
  */
 
 
 
 
-    // Bot account information // 
+    // Bot Account Information // 
 
 	accountName: '',
 	password: '',
@@ -45,17 +45,17 @@ Repo link: https://github.com/OSL-Works/Steam-Auto-Friend
             // Settings //
 
         // Set false to disable
-        EnableCustomPlayingMessage: true,        // [true/false] Enable or disable | custom playing message if is set to true set it down or if is into false bot will show online state.
-        CustomPlayingMessage: `Smth`,            // Message that will be displayed as playing game if EnableCustomPlayingMessage is set to true |
+        EnableCustomPlayingMessage: true,       // [true/false] Enable or disable | custom playing message if is set to true set it down or if is into false bot will show online state.
+        CustomPlayingMessage: `AddTextHere`,            // Message that will be displayed as playing game if EnableCustomPlayingMessage is set to true |
 
  
         // Set false to disable
         group_inviting: true,                   // [true/false] inviting user to the selected group
-	    INVITETOGROUPID: '',                // id of the group that bot will invite user after accepting friend request
+	    INVITETOGROUPID: '',                // id of the group that bot will invite user after accepting friend request Please Note this has to be the Steam 64 Invite Code
 
         // Set false to disable
         welcome_message_enable: true,           // [true/false] senting message after accepting friend request
-        add_message: 'Hi, how can i help you ?',  // Leave the '%' to get it to replace it with the user's name
+        add_message: 'Hi, how can i help you?', // Leave the '%' to get it to replace it with the user's name
         // Soon add_offline_message: 'Hi ! Sorry for waiting to be accepted, how can i help you ? ',  // Message that bot sent to users which requests that are sent when bot was offline.
 
 
@@ -70,20 +70,17 @@ Repo link: https://github.com/OSL-Works/Steam-Auto-Friend
         // Soon adding minimum_level: 0,        // Minimum level required to be automatically accepted if setting above is true 
         // Soon adding minimum_level_offline    // Minimum level required to be automaticly accepted if your request is sent while bot is offline
 
-
-
-
-
-
-
-
-
-
-
-   // Non-important settings //
+	
+	
+	
+	
+	
+	
+	
+   // Non-Important Settings //
  
-        clock: 'en',                                // Language code for your 
-        persona: 'Online',                          // Steam persona status
+        clock: 'en',                             // Language code for your 
+        persona: 'Online',                       // Steam persona status
         game: [440, 730, 735],
 }
 
